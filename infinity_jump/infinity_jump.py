@@ -34,7 +34,7 @@ class App:
             12 : [0.01, 0.30, 0.69],
             "default" : [0.01, 0.20, 0.79]
         }
-        self.fps = 35
+        self.fps = 60
         self.playtime = 0.0
         self.floor_height = int(self.height/2) + 100
         self.obstacles = []
